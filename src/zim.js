@@ -21294,7 +21294,7 @@ added, click, dblclick, mousedown, mouseout, mouseover, pressdown (ZIM), pressmo
 					that.lastSelected = that.lastindex = null;
 				}
 			}
-			if (that.editPoints) that.controls.hold(removeControl);
+			// if (that.editPoints) that.controls.hold(removeControl);
 
 			if (!_controls) that.hideControls();
 			that.dispatchEvent("update");
