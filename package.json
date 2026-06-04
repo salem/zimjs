@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danzen/zimjs.git"
+    "url": "https://github.com/salem/zimjs.git"
   },
   "keywords": [
     "ZIM",
@@ -26,7 +26,7 @@
     "EaselJS",
     "Generative Art",
     "Data Visualization",
-	"Shaders",
+	  "Shaders",
     "Games",
     "Puzzles",
     "InfoActives",

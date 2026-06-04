@@ -21285,7 +21285,7 @@ added, click, dblclick, mousedown, mouseout, mouseover, pressdown (ZIM), pressmo
 			function removeControl(e) {
 				if (e.target.type == "Circle") {
 					var index = that.lastindex = that.controls.getChildIndex(e.target.parent);
-					if (that.controls.numChildren <= 2) return;
+					if (that.controls.numChildren <= 3) return;
 					var points = that.points;
 					if (that.selectPoints) that.lastPoints = zim.copy(points);
 					points.splice(index, 1); // remove the point at the index
